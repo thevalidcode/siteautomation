@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="shortcut icon" href="/static/images/logo.png" type="image/x-icon">
+    <title>Site Automation</title>
+</head>
+<body>
+    <div class="header">
+        <h1>Site Automation</h1>
+    </div>
+    <div class="card">
+        <form action="/update" method="post">
+        <label for="number" class="dn">Enter the number of times you want the code to Run</label>
+        <input type="number" name="number" id="number">
+        <label for="url" class="du">Enter the site url</label>
+        <input type="url" name="url" id="url">
+        <input type="submit" id="subbtn" value="Run Script">
+    </form>
+    </div>
+</body>
+</html>
